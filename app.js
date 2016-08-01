@@ -11,6 +11,7 @@ if (blue == red){
 }
 
 document.write("<br>");
+
 /****************************************************
 *                Nesting and Fridays!               *
 ****************************************************/
@@ -23,4 +24,16 @@ if(firstName == "bucky") {
   } else {
     document.write("welcome bucy someone!!!");
   }
+}
+
+document.write("<br>");
+
+/****************************************************
+*                Complex Conditions                *
+****************************************************/
+var first = "bucky";
+var last = "roberts";
+
+if ((first==="bucky") && (last=="roberts")) {
+  document.write("Hey good job buddy");
 }
