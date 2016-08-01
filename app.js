@@ -9,3 +9,18 @@ if (blue == red){
 } else {
   console.log("I love strawberries");
 }
+
+document.write("<br>");
+/****************************************************
+*                Nesting and Fridays!               *
+****************************************************/
+var firstName = "bucky";
+var lastName = "roberts";
+
+if(firstName == "bucky") {
+  if(lastName == "roberts") {
+    document.write("welcome bucky roberts!!!");
+  } else {
+    document.write("welcome bucy someone!!!");
+  }
+}
