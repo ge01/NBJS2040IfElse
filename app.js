@@ -37,3 +37,28 @@ var last = "roberts";
 if ((first==="bucky") && (last=="roberts")) {
   document.write("Hey good job buddy");
 }
+document.write("<br>");
+
+/****************************************************
+*                     Switch                        *
+****************************************************/
+var girl = "emily";
+
+switch (girl) {
+  case "natalie":
+    document.write("you must like garden state");
+    break;
+  case "ashley":
+    document.write("oo fan of twilight ey?");
+    break;
+  default:
+    document.write("this is the default");
+}
+document.write("<br>");
+
+/****************************************************
+*                    for Loop                       *
+****************************************************/
+for(x=0; x<10; x+=3){
+  document.write("I use a conon printer" + "<br>");
+}
