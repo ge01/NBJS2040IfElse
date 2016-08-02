@@ -9,7 +9,6 @@ if (blue == red){
 } else {
   console.log("I love strawberries");
 }
-
 document.write("<br>");
 
 /****************************************************
@@ -25,7 +24,6 @@ if(firstName == "bucky") {
     document.write("welcome bucy someone!!!");
   }
 }
-
 document.write("<br>");
 
 /****************************************************
@@ -61,4 +59,15 @@ document.write("<br>");
 ****************************************************/
 for(x=0; x<10; x+=3){
   document.write("I use a conon printer" + "<br>");
+}
+document.write("<br>");
+
+/****************************************************
+*                   while Loop                      *
+****************************************************/
+var x = 1;
+
+while(x < 10) {
+  document.write(x + " how do you like them apples" + "<br>")
+  x++;
 }
