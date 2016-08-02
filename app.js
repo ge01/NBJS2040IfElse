@@ -53,7 +53,6 @@ switch (girl) {
     document.write("this is the default");
 }
 document.write("<br>");
-
 /****************************************************
 *                    for Loop                       *
 ****************************************************/
@@ -71,3 +70,12 @@ while(x < 10) {
   document.write(x + " how do you like them apples" + "<br>")
   x++;
 }
+document.write("<br>");
+/****************************************************
+*                    do while                       *
+****************************************************/
+var x = 5;
+do{
+  document.write(x + " alo! <br>");
+  x+=5;
+}while(x<=20);
